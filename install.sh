@@ -9,3 +9,6 @@ cd podget-"$PODGET_VERSION"
 
 # Change sed to gsed
 sed -i '.orig' 's/sed/gsed/g' podget
+
+# Install
+sudo gmake prefix=/usr/local all install
