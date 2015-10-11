@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PODGET_VERSION=0.7.7
+PODGET_VERSION=0.7.8
 
 # Dowload and extract podget
 fetch http://downloads.sourceforge.net/project/podget/podget/podget-"$PODGET_VERSION"/podget-"$PODGET_VERSION".tar.gz
